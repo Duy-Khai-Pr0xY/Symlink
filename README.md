@@ -5,3 +5,6 @@
 #### Symlink trên linux không thể di chuyển được trên internet được do không phải một file thực sự (trình duyệt đã đọc file gốc rồi gửi đi chứ không phải gửi symlink đi)
 # Sử dụng tính năng nén 
 #### Trên linux zip hỗ trợ nén và giải nén symlink (zip -y ten_file_zip file_muon_zip)
+# Chặn chức năng up file php
+#### up ra ngoài file documentRoot (tạo 1 symlink hướng ra ngoài folder bị chặn)
+#### sau đó write vào symlink
