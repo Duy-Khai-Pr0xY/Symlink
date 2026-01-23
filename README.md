@@ -8,3 +8,5 @@
 # Chặn chức năng up file php
 #### up ra ngoài file documentRoot (tạo 1 symlink hướng ra ngoài folder bị chặn)
 #### sau đó write vào symlink
+#### thử up một symlink lên folder
+# Symlink kh chỉ dẫn thẳng đến ứng dụng(read,write,excute) mà còn dẫn thẳng đến folder (list) list được cái file trên folder
