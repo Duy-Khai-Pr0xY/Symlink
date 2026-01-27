@@ -10,3 +10,5 @@
 #### sau đó write vào symlink
 #### thử up một symlink lên folder
 # Symlink kh chỉ dẫn thẳng đến ứng dụng(read,write,excute) mà còn dẫn thẳng đến folder (list) list được cái file trên folder
+#### RCE 1: tạo 1 thư mục link_to_root sau đó zip và đẩy lên server
+#### RCE 2: ghi file vào thư mục /var/www/html ==> upload file zip chứa shell.php trong thư mục link_to_..... (trùng tên) 
